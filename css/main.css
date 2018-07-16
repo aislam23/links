@@ -1,0 +1,112 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #b8c9f1;
+}
+
+.header__title {
+  font-size: 42px;
+  font-weight: 900;
+  margin-top: 60px;
+}
+
+.header__img {
+  max-width: 150px;
+  width: 70%;
+  margin-top: 20px;
+  opacity: 0.4;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-weight: 900;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.section-subtitle {
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.socials {
+  text-align: right;
+}
+
+.social img {
+  max-width: 25px;
+  margin-right: 10px;
+}
+
+.unstyled-list {
+  padding-left: 15px;
+}
+
+.video {
+  width: 100%;
+  height: 355px;
+}
+
+.calc-block {
+  padding-top: 30px;
+}
+
+.calc-title {
+  font-weight: 700;
+}
+
+.range-block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.iphone {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: #f1f2f6;
+}
+
+.legal {
+  font-size: 12px;
+}
+
+@media (max-width: 992px) {
+  .header__title {
+    font-size: 26px;
+  }
+  .socials {
+    text-align: left;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .section-subtitle {
+    font-size: 18px;
+  }
+  .calc-title {
+    font-size: 16px;
+  }
+  .video {
+    height: 286px;
+  }
+}
+
+@media (max-width: 768px) {
+  .calc-title {
+    font-size: 14px;
+  }
+  .video {
+    height: 200px;
+  }
+  .legal {
+    margin: 20px 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
