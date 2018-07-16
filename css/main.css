@@ -17,6 +17,18 @@
   opacity: 0.4;
 }
 
+.button-text {
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  vertical-align: top;
+}
+
+.button-img {
+  vertical-align: sub;
+  width: 20px;
+  margin-left: 5px;
+}
+
 .section {
   padding: 40px 0;
 }
@@ -46,28 +58,6 @@
   padding-left: 15px;
 }
 
-.video {
-  width: 100%;
-  height: 355px;
-}
-
-.calc-block {
-  padding-top: 30px;
-}
-
-.calc-title {
-  font-weight: 700;
-}
-
-.range-block {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.iphone {
-  margin-bottom: 20px;
-}
-
 footer {
   padding: 40px 0;
   background-color: #f1f2f6;
@@ -89,24 +79,6 @@ footer {
   }
   .section-subtitle {
     font-size: 18px;
-  }
-  .calc-title {
-    font-size: 16px;
-  }
-  .video {
-    height: 286px;
-  }
-}
-
-@media (max-width: 768px) {
-  .calc-title {
-    font-size: 14px;
-  }
-  .video {
-    height: 200px;
-  }
-  .legal {
-    margin: 20px 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
