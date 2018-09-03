@@ -1,84 +1,86 @@
 .header {
-  padding-top: 30px;
-  padding-bottom: 60px;
-  background-color: #b8c9f1;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #f1f2f6;
 }
 
 .header__title {
-  font-size: 42px;
-  font-weight: 900;
-  margin-top: 60px;
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 60px;
 }
 
 .header__img {
-  max-width: 150px;
-  width: 70%;
-  margin-top: 20px;
-  opacity: 0.4;
+    max-width: 150px;
+    width: 70%;
+    margin-top: 20px;
+    opacity: 0.4;
 }
 
 .button-text {
-  padding-right: 10px;
-  border-right: 1px solid #fff;
-  vertical-align: top;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+    vertical-align: top;
 }
 
 .button-img {
-  vertical-align: sub;
-  width: 20px;
-  margin-left: 5px;
+    vertical-align: sub;
+    width: 20px;
+    margin-left: 5px;
 }
 
 .section {
-  padding: 40px 0;
+    padding: 40px 0;
 }
 
 .section-title {
-  font-weight: 900;
-  margin-bottom: 15px;
-  margin-top: 30px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
 .section-subtitle {
-  font-weight: 700;
-  margin-bottom: 10px;
-  margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .socials {
-  text-align: right;
+    text-align: right;
 }
 
 .social img {
-  max-width: 25px;
-  margin-right: 10px;
+    max-width: 25px;
+    margin-right: 10px;
 }
 
 .unstyled-list {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 footer {
-  padding: 40px 0;
-  background-color: #f1f2f6;
+    padding: 40px 0;
+    background-color: #f1f2f6;
 }
 
 .legal {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 @media (max-width: 992px) {
-  .header__title {
-    font-size: 26px;
-  }
-  .socials {
-    text-align: left;
-  }
-  .section-title {
-    font-size: 22px;
-  }
-  .section-subtitle {
-    font-size: 18px;
-  }
+    .header__title {
+        font-size: 26px;
+    }
+    .socials {
+        text-align: left;
+    }
+    .section-title {
+        font-size: 22px;
+    }
+    .section-subtitle {
+        font-size: 18px;
+    }
 }
+
+
 /*# sourceMappingURL=main.css.map */
