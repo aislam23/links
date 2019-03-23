@@ -1,46 +1,91 @@
+@import keyframes
+
+body
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol
+	margin: 0
+	color: #212529
+
+a
+	text-decoration: none
+	color: #0366d6
+
+li
+	line-height: 1.5
+	font-size: 1rem
+
+h3
+	font-size: 1.75rem
+
 .header
-    padding-top: 30px 
-    padding-bottom: 60px
-    background-color: #b8c9f1
-    &__title
-        font-size: 42px
-        font-weight: 900
-        margin-top: 60px
-    &__img 
-        max-width: 150px
-        width: 70%   
-        margin-top: 20px
-        opacity: 0.4     
+	padding-top: 30px
+	padding-bottom: 60px
+	background: linear-gradient(270deg, #48c6ef, #6f86d6)
+	background-size: 400% 400%
+	animation: headerGrad 5s ease infinite
+	&__logo
+		font-weight: 700
+		font-size: 21px
+		color: white
+	&__title
+		font-size: 42px
+		font-weight: 900
+		margin-top: 60px
+		color: white
+	&__text
+		color: white
+		margin-bottom: 25px
+	&__img
+		max-width: 150px
+		width: 70%
+		margin-top: 20px
+		opacity: 0.4
 .button
-    &-text
-        padding-right: 10px
-        border-right: 1px solid #fff
-        vertical-align: top
-    &-img 
-        vertical-align: sub
-        width: 20px
-        margin-left: 5px
+	background: #ffffff
+	border-radius: 4px
+	padding: 11px 14px 10px
+	transition: background .2s ease-out
+	&-text
+		color: black
+		padding-right: 10px
+		vertical-align: top
+		&:after
+			content: ''
+			position: absolute
+			margin-left: 9px
+			display: inline-block
+			height: 20px
+			width: 1px
+			background: #212529
+	&-img
+		vertical-align: sub
+		width: 20px
+		margin-left: 5px
 .section
-    padding: 40px 0 
-    &-title 
-        font-weight: 900
-        margin-bottom: 15px
-        margin-top: 30px
-    &-subtitle 
-        font-weight: 700
-        margin-bottom: 10px
-        margin-top: 20px
-.social 
-    &s 
-        text-align: right
-    img 
-        max-width: 25px
-        margin-right: 10px
-.unstyled-list 
-    padding-left: 15px
-footer 
-    padding: 40px 0
-    background-color: #f1f2f6
+	padding: 40px 0
+	&-title
+		font-weight: 900
+		margin-bottom: 15px
+		margin-top: 30px
+	&-subtitle
+		font-weight: 700
+		margin-bottom: 10px
+		margin-top: 20px
+.social
+	&s
+		text-align: right
+	img
+		max-width: 25px
+		margin-right: 10px
+.unstyled-list
+	padding-left: 0px
+	list-style: none
+.footer
+	padding: 40px 0
+	background-color: #f1f2f6
+	&__logo
+		font-weight: 700
+		font-size: 21px
 .legal
-    font-size: 12px
-@import "media"
+	font-size: 12px
+
+@import media
